@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome angiechili,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
@@ -43,3 +43,63 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+
+**********************************
+
+# St Peter's Playgroup Website
+ 
+## Overview
+ 
+### What is this website for?
+ 
+This is a website for potential new clients.
+ 
+### What does it do?
+ 
+This website has various pages for people to read lots of information about the playgroup, ranging from , to their . Users can contact the team via a contact form.
+ 
+### How does it work
+ 
+
+
+## Features
+ 
+### Existing Features
+- Eye catching front page
+  - Hero Image
+  - Timetable
+- About us page.
+  - 
+- Contact Us page.
+- 
+
+### Features Left to Implement
+- 
+
+## Tech Used
+
+### Some the tech used includes:
+- **HTML**, **CSS** 
+  - Base languages used to create website
+- [Bootstrap](http://getbootstrap.com/)
+    - We use **Bootstrap** to give our project a simple, responsive layout
+
+
+## Testing
+
+
+## Contributing
+ 
+### Getting the code up and running
+
+
+## Credits
+
+### Media
+- The photos used in this site were obtained from 
+
+### Information
+- The information used to create this site was from a number of sources
+    
+
