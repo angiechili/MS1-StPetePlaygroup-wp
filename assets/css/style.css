@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Lato', sans-serif;
+    background-image: url("https://www.freepik.com/vectors/background");
 }
 /*----------------------------------------------------------------Colors*/
 #iu-color-home{
@@ -17,14 +18,22 @@ body{
     background-color: #6bbf71;
 }
 
+a {
+    color: #fff;
+    font-weight: 700;
+}
+
 /*----------------------------------------------------------------Heading*/
 #logo{
 float: left;
 font-size: 300%;
 text-transform: capitalize;
 padding-left: 10px;
+padding-top: 20px;
 font-family: 'Pangolin', cursive;
 color: #17a649;
+font-weight: 700;
+letter-spacing: 5px ;
 }
 
 .nav {
@@ -33,6 +42,7 @@ color: #17a649;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding-left: 0;
+    padding-top: 20px;
     margin-bottom: 0;
     list-style: none;
     float: right;
@@ -44,8 +54,9 @@ color: #17a649;
 div#hero-image{
     height: 600px;
     width: 100%;
-    background:  url("../img/heroimage2.jpg")no-repeat center center;
-
+    background:  url("../img/children-holding-hands-park.jpg")no-repeat center center;
+    background-size: cover;
+    background-position: relative;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
