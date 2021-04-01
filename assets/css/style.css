@@ -2,7 +2,9 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background-image: url("https://www.freepik.com/vectors/background");
+    padding: 0px 50px 0px 50px;
+    
+    
 }
 /*----------------------------------------------------------------Colors*/
 #iu-color-home{
@@ -20,7 +22,7 @@ body{
 
 a {
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 /*----------------------------------------------------------------Heading*/
@@ -52,9 +54,9 @@ letter-spacing: 5px ;
 /*----------------------------------------------------------------hero image*/
 
 div#hero-image{
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background:  url("../img/children-holding-hands-park.jpg")no-repeat center center;
+    background:  url("../img/children-holding-hands-park-horizontal.jpg")no-repeat center center;
     background-size: cover;
     background-position: relative;
     animation-name: hero-zoom;
@@ -63,9 +65,10 @@ div#hero-image{
 }
 
 #hero-outer{
-    height: 600px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
+    background-color: #bf73ab;
 }
 
 @keyframes hero-zoom {
@@ -75,4 +78,11 @@ div#hero-image{
     to{
         transform: scale(1.1);
     }
+}
+
+/*----------------------------------------------------------------middle section*/
+.summary {
+    background-color: #f2811d;
+    margin-top: 20px;
+    color: #fff;
 }
