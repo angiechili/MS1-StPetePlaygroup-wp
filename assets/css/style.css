@@ -70,6 +70,8 @@ div#hero-image{
     width: 100%;
     overflow: hidden;
     background-color: #bf73ab;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 @keyframes hero-zoom {
@@ -89,9 +91,9 @@ div#hero-image{
 }
 /*----------------------------------------------------------------timetable*/
 #timetable{
-    background-image: url("../img/heroimage2.jpg");
+    background-image: url("../img/stationary.jpg");
     background-repeat: no-repeat;
-
+    background-size: cover;
     background-position:center;
     width:100%;
     overflow: hidden;
@@ -101,10 +103,28 @@ div#hero-image{
 #timetable div{
     color: #fafafa;
     background-color: rgba(0,0,0, .4);
-    width: 19%;
+    width: 19.25%;
     height:300px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 10px 0 0 10px;
     text-align: center;
-    margin: 4px;
+    margin: 1px 4px 1px 4px;
 }
+/*----------------------------------------------------------------Responsive design*/
+@media screen and (max-width: 1396px) {
+
+    #timetable div {
+        width: 100%;
+        clear: both;
+        height:150%;
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(179, 175, 175); 
+        padding: 0;
+    }
+
+
+
+}
+
+/*@media screen and (max-width: 943px){}*/
