@@ -6,6 +6,17 @@ body{
     
     
 }
+
+h2{
+    text-align: center;
+    font-family: 'pangolin', cursive;
+    color:#592D39;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 300%;
+    text
+
+}
 /*----------------------------------------------------------------Colors*/
 #iu-color-home{
     background-color: #bf73ab;
@@ -23,19 +34,21 @@ body{
 a {
     color: #fff;
     font-weight: 500;
+    font-size: 150%;
 }
 
 /*----------------------------------------------------------------Heading*/
 #logo{
 float: left;
-font-size: 300%;
+font-size: 250%;
 text-transform: capitalize;
 padding-left: 10px;
 padding-top: 20px;
 font-family: 'Pangolin', cursive;
 color: #17a649;
 font-weight: 700;
-letter-spacing: 5px ;
+letter-spacing: 4px ;
+
 }
 
 .nav {
@@ -89,6 +102,9 @@ div#hero-image{
     margin-top: 20px;
     color: #fff;
 }
+
+
+
 /*----------------------------------------------------------------timetable*/
 #timetable{
     background-image: url("../img/stationary.jpg");
@@ -116,6 +132,12 @@ div h3{
     letter-spacing: 5px;
     font-weight: bold;
 }
+
+.scallop-up{
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
+-webkit-background-size: 49px 100%;
 /*----------------------------------------------------------------Responsive design*/
 @media screen and (max-width: 1396px) {
 
