@@ -137,12 +137,29 @@ div h3{
 -webkit-background-size: 49px 100%;
 }
 
-
-
+/*----------------------------------------------------------------wraparound and session details*/
 #wraparound{
     text-align: center;
     margin-top:0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+div i{
+    padding-right: 10px;
+    text-shadow:2px 4px 6px;
+    font-size: 150%;
+    padding-top: 0px;
+}
+.fa-hourglass-start{
+    color:#c254ac;
+}
+.fa-hourglass-half{
+    color:#5cc1e6;
+}
+.fa-hourglass{
+   color:#6bbf71;
+}
+
 
 /*----------------------------------------------------------------Responsive design*/
 @media screen and (max-width: 1396px) {
@@ -161,4 +178,4 @@ div h3{
 
 }
 
-}/*@media screen and (max-width: 943px){}*/
+/*@media screen and (max-width: 943px){}*/
