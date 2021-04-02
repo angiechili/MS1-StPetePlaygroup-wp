@@ -110,6 +110,12 @@ div#hero-image{
     text-align: center;
     margin: 1px 4px 1px 4px;
 }
+
+div h3{
+    font-family: 'pangolin', cursive;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
 /*----------------------------------------------------------------Responsive design*/
 @media screen and (max-width: 1396px) {
 
