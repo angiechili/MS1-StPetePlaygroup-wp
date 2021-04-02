@@ -13,9 +13,7 @@ h2{
     color:#592D39;
     font-weight: 800;
     letter-spacing: 4px;
-    font-size: 300%;
-    text
-
+    font-size: 150%;
 }
 /*----------------------------------------------------------------Colors*/
 #iu-color-home{
@@ -82,7 +80,6 @@ div#hero-image{
     height: 700px;
     width: 100%;
     overflow: hidden;
-    background-color: #bf73ab;
     margin-top: 0%;
     padding-top: 0%;
 }
@@ -138,6 +135,15 @@ div h3{
   width:100%;
   background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
 -webkit-background-size: 49px 100%;
+}
+
+
+
+#wraparound{
+    text-align: center;
+    margin-top:0;
+    margin-bottom: 20px;
+
 /*----------------------------------------------------------------Responsive design*/
 @media screen and (max-width: 1396px) {
 
@@ -155,4 +161,4 @@ div h3{
 
 }
 
-/*@media screen and (max-width: 943px){}*/
+}/*@media screen and (max-width: 943px){}*/
