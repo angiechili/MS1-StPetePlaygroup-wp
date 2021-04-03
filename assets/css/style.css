@@ -21,16 +21,16 @@ h2{
 }
 
 /*----------------------------------------------------------------Colors*/
-#iu-color-home{
+#iu-color-home, .fa-facebook{
     background-color: #E1259F;
 }
-#iu-color-about{
+#iu-color-about, .fa-twitter{
     background-color: #E2C72D;
 }
-#iu-color-contact{
+#iu-color-contact, .fa-whatsapp{
     background-color: #00BD42;
 }
-#iu-color-gallery{
+#iu-color-gallery, .fa-facebook-messenger{
     background-color: #213EE0;
 }
 
@@ -148,7 +148,7 @@ div h3{
     font-family: 'pangolin', cursive;
     letter-spacing: 5px;
     font-weight: bold;
-    text-shadow:2px 2px 3px rgba(0,0,0,0.7);
+    text-shadow:2px 2px 3px rgba(0,0,0,0.8);
     
 
 
@@ -163,27 +163,36 @@ div h3{
 }
 
 .scallop-down{
-  height:100px;
+  height:70px;
   width:100%;
-  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#E2C72D), color-stop(0.49, #E2C72D), color-stop(0.51, #fff), to(white));
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#E2C72D), color-stop(0.49, #E2C72D), color-stop(0.51,rgba(228, 241, 254, 1)), to(rgba(228, 241, 254, 1)));
 -webkit-background-size: 49px 100%;
 }
 
 /*----------------------------------------------------------------wraparound and session details*/
-#wraparound{
+#wraparound, h2{
     text-align: center;
     margin-top:0;
     margin-bottom: 0px;
+    background-color: #E2C72D;
 
 }
 
 #wraparound h3{
-    color: #17a649;
+    color: white;
     margin-bottom: 0px;
+    font-family: "lato",sans-serif;
+    text-shadow:2px 2px 2px rgba(0,0,0,0.8);
 }
-li{
+
+#wraparound h5{
+    color:white;
+    text-shadow:2px 2px 2px rgba(0,0,0,0.6);
+}
+#wraparound li{
     text-align:justify;
     list-style: none;
+    
 }
 
 #wraparound ul{
@@ -226,21 +235,47 @@ div i{
     padding-bottom: 0%;
     margin-bottom: 0%;
     text-shadow:2px 2px 3px rgba(0,0,0,0.6);
+    background-color:white;
+    text-align: center;
 }
 
 .summary p{
-    text-align: justify;
+    text-align: center;
     margin-top: 30px;
     color:rgba(0,0,0,0.6);
 }
 
 div .fa-shapes{
-    margin-left: 47.5%;
+    
     color: #74A617;
     font-size: 300%;
+    text-align:center;
+    display:inline;
     
 }
 
+/*----------------------------------------------------------------footer*/
+footer{
+    height:150px;
+    text-align: center;
+    background-color: rgba(228, 241, 254, 1)
+
+}
+
+
+.social-networks li{
+    display:inline;
+
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin:5px;
+    padding: 1%;
+    border-radius: 25px;
+
+    
+}
 /*----------------------------------------------------------------Responsive design*/
 @media screen and (max-width: 1396px) {
 
