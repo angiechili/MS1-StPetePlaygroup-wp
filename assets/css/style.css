@@ -10,11 +10,13 @@ body{
 h2{
     text-align: center;
     font-family: 'pangolin', cursive;
-    color:#592D39;
+    color:#A61774;
     font-weight: 800;
     letter-spacing: 4px;
-    font-size: 150%;
+    font-size: 300%;
+    
 }
+
 /*----------------------------------------------------------------Colors*/
 #iu-color-home{
     background-color: #bf73ab;
@@ -92,16 +94,6 @@ div#hero-image{
         transform: scale(1.1);
     }
 }
-
-/*----------------------------------------------------------------middle section*/
-.summary {
-    background-color: #f2811d;
-    margin-top: 20px;
-    color: #fff;
-}
-
-
-
 /*----------------------------------------------------------------timetable*/
 #timetable{
     background-image: url("../img/stationary.jpg");
@@ -128,12 +120,20 @@ div h3{
     font-family: 'pangolin', cursive;
     letter-spacing: 5px;
     font-weight: bold;
+    
 }
 
 .scallop-up{
   height:100px;
   width:100%;
-  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#1774A6), color-stop(0.49, #1774A6), color-stop(0.51, #fff), to(white));
+-webkit-background-size: 49px 100%;
+}
+
+.scallop-down{
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#1774A6), color-stop(0.49, #1774A6), color-stop(0.51, #fff), to(white));
 -webkit-background-size: 49px 100%;
 }
 
@@ -146,20 +146,49 @@ div h3{
 
 div i{
     padding-right: 10px;
-    text-shadow:2px 4px 6px;
+    text-shadow:2px 2px 2px rgba(0,0,0,0.6);
     font-size: 150%;
     padding-top: 0px;
+
 }
 .fa-hourglass-start{
-    color:#c254ac;
+    color:#A61774;
 }
 .fa-hourglass-half{
-    color:#5cc1e6;
+    color:#74A617;
 }
 .fa-hourglass{
-   color:#6bbf71;
+   color:#1774A6;
 }
 
+/*----------------------------------------------------------------middle section*/
+.summary h3{
+    margin-top: 0px;
+    padding-top: 0;
+    color: #1774A6;
+    text-align: center;
+
+
+}
+
+.summary h2{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    text-shadow:2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.summary p{
+    text-align: justify;
+    margin-top: 30px;
+    color:rgba(0,0,0,0.6);
+}
+
+div .fa-shapes{
+    margin-left: 47.5%;
+    color: #74A617;
+    font-size: 300%;
+    
+}
 
 /*----------------------------------------------------------------Responsive design*/
 @media screen and (max-width: 1396px) {
