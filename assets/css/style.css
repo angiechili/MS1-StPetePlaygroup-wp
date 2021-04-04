@@ -21,13 +21,13 @@ h2{
 }
 
 /*----------------------------------------------------------------Colors*/
-#iu-color-home, .fa-facebook{
+.navbar-color-purple, .fa-facebook{
     background-color: #E1259F;
 }
-#iu-color-about, .fa-twitter{
+.navbar-color-yellow, .fa-twitter{
     background-color: #E2C72D;
 }
-#iu-color-contact, .fa-whatsapp{
+.navbar-color-green, .fa-whatsapp{
     background-color: #00BD42;
 }
 #iu-color-gallery, .fa-facebook-messenger{
@@ -35,13 +35,13 @@ h2{
 }
 
 a {
-    color: black;
+    color: #fff;
     font-weight: 500;
     font-size: 150%;
 }
 
 /*----------------------------------------------------------------Heading*/
-#logo{
+.navbar-brand{
 float: left;
 font-size: 250%;
 text-transform: capitalize;
