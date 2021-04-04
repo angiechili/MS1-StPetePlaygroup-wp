@@ -3,8 +3,7 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    /*padding: 0px 50px 0px 50px;*/
-    padding-top: 50%;
+    
     
     
 }
@@ -193,6 +192,7 @@ div h3{
 #wraparound li{
     text-align:justify;
     list-style: none;
+    /* position: relative; this does not work*/
     
 }
 
@@ -200,6 +200,7 @@ div h3{
     margin-bottom: 0;
     margin-top: 30px;
     padding-left: 0;
+     /* position: relative; this does not work*/
     
     
 }
@@ -223,37 +224,34 @@ div i{
 }
 
 /*----------------------------------------------------------------middle section*/
+
 .summary h3{
     margin-top: 0px;
     padding-top: 0;
     color: #1774A6;
     text-align: center;
-
-
 }
 
 .summary h2{
     padding-bottom: 0%;
     margin-bottom: 0%;
     text-shadow:2px 2px 3px rgba(0,0,0,0.6);
-    background-color:white;
     text-align: center;
+    background-color: white;
 }
 
-.summary p{
-    text-align: center;
+.descriptive-text {
+    text-align: justify;
     margin-top: 30px;
     color:rgba(0,0,0,0.6);
+    width: 50%;
+    margin-left: 25%;
+
+    
+    
+    
 }
 
-div .fa-shapes{
-    
-    color: #74A617;
-    font-size: 300%;
-    text-align:center;
-    display:inline;
-    
-}
 
 /*----------------------------------------------------------------footer*/
 footer{
