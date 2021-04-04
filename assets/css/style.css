@@ -94,8 +94,8 @@ div#hero-image{
     position: relative;
    
 }
-/* not working!!
-div #cover-text {
+
+#cover-text {
     color:black;
     font-size: 130%;
     
@@ -107,9 +107,9 @@ div #cover-text {
 
     background-color: chartreuse;
 
-
+    position: absolute;
+    top: 0px;
 }
-*/
 
 
 @keyframes hero-zoom {
@@ -137,11 +137,9 @@ div #cover-text {
     width: 19.25%;
     height:300px;
     float: left;
-    padding: 10px 0 0 10px;
     text-align: center;
-    margin: 1px 4px 1px 4px;
+    margin: 1px 4px 1px 7px;
     text-shadow:2px 2px 3px rgba(0,0,0,0.7);
-
 }
 
 div h3{
@@ -300,3 +298,35 @@ footer{
 }
 
 /*@media screen and (max-width: 943px){}*/
+
+/*@media screen and (min-width: 1396px) {
+     #timetable div {
+        min-width: 1662px;
+    }
+}*/
+
+
+
+
+
+
+
+
+/*  custom CSS */
+.nav-pills {
+    margin-right: 200px;
+}
+
+.navbar {
+    color:black;
+}
+
+#cover-text h3 {
+    color: black;
+}
+
+.show-me { 
+    
+    color:black !important;
+    z-index: 2;
+}

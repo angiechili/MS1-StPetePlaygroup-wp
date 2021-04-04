@@ -9,40 +9,45 @@
     <title>St Peter's Playgroup | Dinas Powys</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">St Peter's Playgroup</h1>
-            
-        </a>
-        
-        <div class="container">
-            <ul class="nav nav-pills ">
-                <li class="nav-item ml-1">
-                    <a class="nav-link active" id= "iu-color-home" href="index.html">Home</a>
-                </li>
-                <li class="nav-item ml-1">
-                    <a class="nav-link" id="iu-color-about" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item ml-1">
-                    <a class="nav-link" id="iu-color-contact" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item ml-1">
-                    <a class="nav-link" id="iu-color-gallery" href="gallery.html">Gallery</a>
-                </li>
-            </ul>
-        </div>
-        </header>
+    <nav class="navbar navbar-expand-sm ">
+         <div class="container-fluid">
+            <a class="navbar-brand" id="logo" href="index.html">St Peter's Playgroup</a>
+            <!-- Credit to Matt Rudge, Code Institute for Dark Navbar and Navbar Toggler-->
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fab fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav nav-color ml-auto nav-pills">
+                  <li class="nav-item mr-auto ml-1">
+                     <a class="nav-link nav-link-color active" id= "iu-color-home" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item mr-auto ml-1 nav-pills">
+                     <a class="nav-link nav-link-color" id= "iu-color-about" href="test.html">About Us</a>
+                  </li>
+                  <li class="nav-item mr-auto ml-1 nav-pills">
+                     <a class="nav-link nav-link-color" id= "iu-color-contact" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item mr-auto ml-1 nav-pills">
+                     <a class="nav-link nav-link-color" id= "iu-color-gallery" href="gallery.html">Gallery</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
     
     <section  id="hero-outer">
-        <div  id="hero-image">
-        </div>
-            <div id="cover-text">
-                <h3 class="show-me ">"There are no stragers here, just friends you haven't met.."</h3>
-                <h5 class="show-me">Roald Dahl</h5>
+        <div class="container-fluid"> 
+            <div  id="hero-image">
             </div>
+                <div id="cover-text">
+                    <h3>"There are no stragers here, just friends you haven't met.."</h3>
+                    <h5>Roald Dahl</h5>
+                </div>
+        </div>  
     </section>
     <section>
-        
+    <div class="container-fluid">     
         <div class="summary">
             <h2>Welcome</h2>
             <h3>Croeso</h3>
@@ -50,9 +55,10 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. </p>
             </div>
         </div>
-        
+    </div>    
     </section>
     <section>
+    <div class="container-fluid"> 
         <div class="scallop-up"></div>
         <div class="colour-block">
             <h2> Our sessions </h2>
@@ -118,6 +124,7 @@
         
         <div class="scallop-down">
         </div>
+    </div>    
     </section>
     <footer>
         <ul class="social-networks">
@@ -127,6 +134,14 @@
             <li><a href="https://wa.me/+447769690969" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
         </ul>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+      crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+      crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+      crossorigin="anonymous"></script>
 </body>
 </html>
