@@ -3,35 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/f5bfd05d42.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>St Peter's Playgroup | Dinas Powys</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">St Peter's Playgroup</h1>
-            
-        </a>
-        
-        <div class="container">
-            <ul class="nav nav-pills ">
-                <li class="nav-item ml-1">
-                    <a class="nav-link active" id= "iu-color-home" href="index.html">Home</a>
-                </li>
-                <li class="nav-item ml-1">
-                    <a class="nav-link" id="iu-color-about" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item ml-1">
-                    <a class="nav-link" id="iu-color-contact" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item ml-1">
-                    <a class="nav-link" id="iu-color-gallery" href="about-test.html">Gallery</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-sm ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">St peters playgroup</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-color ml-auto">
+                    <li class="nav-item navbar-color-red mr-auto ml-1">
+                        <a class="nav-link navbar-color-red" href="#">Home</a>
+                    </li>
+                    <li class="nav-item navbar-color-red mr-auto ml-1">
+                        <a class="nav-link navbar-color-red" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item navbar-color-red mr-auto ml-1">
+                        <a class="nav-link navbar-color-red" href="#">Gallery</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        </header>
+    </nav>
+
+    
     
     <section  id="hero-outer">
         <div  id="hero-image">
@@ -51,6 +52,39 @@
             </div>
         </div>
         
+        <div class="container-fluid">
+    
+        <div class="row justify-content-center">
+    
+            <div class="card col-md-12 col-sm-12 col-lg-2 " >
+                <img class="card-img-top" src="./assets/img/heroimage.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">FUN</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-md-12 col-sm-12 col-lg-2" >
+                <img class="card-img-top" src="./assets/img/heroimage.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">FUN</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card col-md-12 col-sm-12 col-lg-2" >
+                <img class="card-img-top" src="./assets/img/heroimage.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">FUN</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+            
     </section>
     <section>
         <div class="scallop-up"></div>
@@ -128,5 +162,8 @@
         </ul>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
