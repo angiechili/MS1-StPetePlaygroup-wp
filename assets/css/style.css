@@ -4,6 +4,7 @@
 body{
     font-family: 'Lato', sans-serif;
     /*padding: 0px 50px 0px 50px;*/
+    padding-top: 50%;
     
     
 }
@@ -275,6 +276,12 @@ footer{
     border-radius: 25px;
 
     
+}
+/*----------------------------------------------------------------form*/
+
+.form-group{
+    height:50%;
+    background-color: #1774A6;
 }
 /*----------------------------------------------------------------Responsive design*/
 @media screen and (max-width: 1396px) {
