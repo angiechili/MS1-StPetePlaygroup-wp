@@ -60,19 +60,20 @@ text-shadow: 0px 2px 0px #b2a98f,
 /*----------------------------------------------------------------hero image*/
 
 div#hero-image{
-    height: 700px;
+    height: 100%;
     width: 100%;
     background:  url("../img/children-holding-hands-park-horizontal.jpg")no-repeat center center;
 
-    
-    /*background-position: relative;*/
+    background-size: cover;
+    background-position: relative;
+    top:20px;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 #hero-outer{
-    height: 700px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
