@@ -5,7 +5,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-h2{
+h2, .h2{
     text-align: center;
     font-family: 'pangolin', cursive;
     color:#A61774;
@@ -90,6 +90,7 @@ text-shadow: 0px 2px 0px #b2a98f,
     margin-bottom: 1rem;
     font-size: 1.25rem;
     color: black;
+    font-family: 'pangolin', sans-serif;
 }
 
 #thehero {
@@ -114,11 +115,10 @@ text-shadow: 0px 2px 0px #b2a98f,
 }
 
 .the-inner {
-    background-color: grey;
     width: 100%;
-    padding: 1rem;
-    overflow:hidden;
+    padding: 110px;
     background-attachment: fixed;
+    overflow:hidden;
 }
 
 
@@ -226,7 +226,7 @@ div i{
     
 
 }
-.fa-hourglass-start{
+.fa-hourglass-start, .fa-phone{
     color:#A61774;
 }
 .fa-hourglass-half{
@@ -238,9 +238,9 @@ div i{
 
 /*----------------------------------------------------------------middle section*/
 
-.summary h3{
-    margin-top: 0px;
-    padding-top: 0;
+.summary h3, .h3{
+    margin-top: 2%;
+    padding-top: 2%;
     color: #1774A6;
     text-align: center;
 }
@@ -344,4 +344,20 @@ footer{
     
     color:black !important;
     z-index: 2;
+}
+
+/*----------------------------------contact us---------*/
+
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }

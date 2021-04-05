@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/f5bfd05d42.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>St Peter's Playgroup | Dinas Powys</title>
@@ -34,33 +34,99 @@
 
 
     
-    <section>
-        <div  style="width: 100%"><iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=St%20Peter's%20Playgroup%20Dinas%20Powys+(St%20Peter's%20Playgroup)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm"></a>
+    <section class="section pb-5">
+
+  <!--Section heading-->
+  <h2 class="section-heading h1 pt-4">Contact us</h2>
+  <!--Section description-->
+  <p class="section-description pb-4">If you have any questions. You can also call or message us directly via Whastappor Facebook messenger. If you'd like to keep up with all the playgroup fun,you can also follow us on Facebook and Twitter.</p>
+
+  <div class="row">
+
+    <!--Grid column-->
+    <div class="col-lg-5 mb-4">
+
+      <!--Form with header-->
+      <div class="card">
+
+        <div class="card-body">
+          <!--Header-->
+          <div class="form-header blue accent-1">
+            <h3><i class="fas fa-envelope"></i> Write to us:</h3>
+          </div>
+
+          <!--Body-->
+          <div class="md-form">
+            <i class="fas fa-user prefix grey-text"></i>
+            <input type="text" id="form-name" class="form-control "required>
+            <label for="form-name">Your name</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fas fa-envelope prefix grey-text"></i>
+            <input type="text" id="form-email" class="form-control"required>
+            <label for="form-email">Your email</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fas fa-tag prefix grey-text"></i>
+            <input type="text" id="form-Subject" class="form-control"required>
+            <label for="form-Subject">Subject</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fas fa-pencil-alt prefix grey-text"></i>
+            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+            <label for="form-text">Icon Prefix</label>
+          </div>
+
+          <div class="text-center mt-4">
+            <button class="btn btn-light-blue">Submit</button>
+          </div>
+
         </div>
-    </section>
-        <section class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-sm-12 col-lg-6">
-               <h2 class="">
-                  Contact Us
-               </h2>
-               <br>
-               <p>If you have any questions. You can also call or message us directly via Whastappor Facebook messenger. If you'd like to keep up with all the playgroup fun,you can also follow us on Facebook and Twitter.</p>
-                <div class="form-center">
-                  <form>
-                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Full Name" required />
-                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                     <textarea rows="5" name="message" id="message" class="form-control" placeholder="Type Message Here" required ></textarea>
-                     <div class="form-rown text-center">
-                        <div class="col">
-                           <button type="submit" class="btn btn-warning">Send Message</button>
-                        </div>
-                     </div>
-                  </form>
-                </div>  
-            </div>    
-        </div>    
-    </section>
+
+      </div>
+      <!--Form with header-->
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-7">
+
+      <!--Google map-->
+      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+        <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=St%20Peter's%20Playgroup%20Dinas%20Powys+(St%20Peter's%20Playgroup)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <br>
+      <!--Buttons-->
+      <div class="row text-center">
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+          <p>Mill Rd, Dinas Powys</p>
+          <p>CF64 4BT</p>
+        </div>
+
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+          <p>07710 249331</p>
+        </div>
+
+        <div class="col-md-4">
+          <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+          <p>stpetersplaygroupdinaspowys@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+
+</section>
     </body>
     <footer>
         <ul class="social-networks">
