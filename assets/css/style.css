@@ -3,9 +3,6 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    
-    
-    
 }
 
 h2{
@@ -34,7 +31,7 @@ h2{
     background-color: #213EE0;
 }
 
-a {
+a{
     color: #fff;
     font-weight: 500;
     font-size: 150%;
@@ -43,9 +40,9 @@ a {
 /*----------------------------------------------------------------Heading*/
 .navbar-brand{
 float: left;
-font-size: 250%;
+font-size: 300%;
 text-transform: capitalize;
-padding-left: 10px;
+padding-left: 5px;
 padding-top: 20px;
 font-family: 'Pangolin', cursive;
 color: #17a649;
@@ -82,23 +79,20 @@ div#hero-image{
    
 }
 
-.cover-quote{
+#cover-quote{
     position: absolute;
-    top:260px
+    top:260px;
+    color: #fafafa;
+
+
 }
 
-.cover-quote h5 {
-    text-align: center;
-    color:white;
-    margin-right:20px;
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #fafafa;
 }
 
-.cover-quote h3{
-    text-align: left;
-    color:whitesmoke;
-    font-size: 160%;
-    font-family: 'Lato', sans-serif;
-}
 
 
 @keyframes hero-zoom {
