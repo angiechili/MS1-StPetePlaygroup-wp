@@ -75,3 +75,134 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+/*----------------------------------------------------------------Heading*/
+.navbar-brand{
+float: left;
+font-size: 300%;
+text-transform: capitalize;
+padding-left: 5px;
+padding-top: 20px;
+font-family: 'Pangolin', cursive;
+color: #17a649;
+font-weight: 700;
+letter-spacing: 4px ;
+text-shadow: 0px 2px 0px #b2a98f,
+             0px 5px 10px rgba(0,0,0,0.15),
+             0px 10px 2px rgba(0,0,0,0.1),
+             0px 15px 30px rgba(0,0,0,0.1);
+         
+
+}
+
+CSS for header and hero image
+/*----------------------------------------------------------------hero image*/
+
+/*#hero-image{
+    height: 700px;
+    width: 100%;
+    background:  url("../img/children-holding-hands-park-horizontal.jpg")no-repeat center center;
+
+    background-size: cover;
+    /*background-position: relative;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.cover-quote{
+    position: absolute;
+    top:260px;
+
+
+}
+*/
+
+
+#hero-image {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image:url("../img/children-holding-hands-park-white-back.jpg");
+    background-size: auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:hidden;
+
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.the-inner {
+    width: 100%;
+    padding: 100px;
+    position: top center;
+    overflow:hidden;
+}
+
+
+
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+----nav bar and hero image-----------
+
+ <nav class="navbar navbar-expand-sm ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">St peters playgroup</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-color ml-auto">
+                    <li class="nav-item navbar-color-purple mr-auto ml-1">
+                        <a class="nav-link navbar-color-red" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item navbar-color-yellow mr-auto ml-1">
+                        <a class="nav-link navbar-color-red" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item navbar-color-green mr-auto ml-1">
+                        <a class="nav-link navbar-color-red" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluid" id="hero-image">
+                <!--<div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        
+                            <p>There are no strangers here, just friends you haven't met..</p>
+                      
+                        <figcaption class="blockquote-footer">
+                            Roald Dahl
+                        </figcaption>   
+                    </div>
+                </div>   
+                </div> -->
+    </div>
