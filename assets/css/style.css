@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Pangolin&display=swap');
 
 
-body{
+html,body{
     font-family: 'Lato', sans-serif;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h2,h1, .h2{
@@ -40,11 +41,11 @@ a{
 /*----------------------------------------------------------------Bootstrap NavBar*/
 .navbar-brand{
 float: left;
-font-size: 200%;
+font-size: 60px;
 text-transform: capitalize;
 text-align: justify;
 padding-left: 5px;
-padding-top: 20px;
+padding-top: 10px;
 font-family: 'Pangolin', cursive;
 color: #17a649;
 font-weight: 700;
@@ -53,7 +54,8 @@ text-shadow: 0px 2px 0px #b2a98f,
              0px 5px 10px rgba(0,0,0,0.15),
              0px 10px 2px rgba(0,0,0,0.1),
              0px 15px 30px rgba(0,0,0,0.1);
-overflow-wrap: break-word;
+         
+
          
 
 }
@@ -280,16 +282,24 @@ footer{
 
 }
 
-html, body { 
-    overflow-x: hidden; 
+ 
+@media screen and (max-width: 600px){
+    .navbar-brand {
+        font-size: 30px;
+        padding-left: 0px;
+        float:left;
     }
-/*@media screen and (max-width: 943px){}*/
+}
 
-/*@media screen and (min-width: 1396px) {
-     #timetable div {
-        min-width: 1662px;
+
+@media screen and (max-width: 347px){
+    .navbar-brand {
+        font-size: 22px;
+        padding-left: 0px;
+        float:left;
     }
-}*/
+}
+
 
 
 
