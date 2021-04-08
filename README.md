@@ -15,8 +15,11 @@ Until now.... click below to see the St Peter's Playgoup brand new website.
 This is a website for potential clients. 
 
 Existing clients are kept in the loop with all the activities and playgroup news through a monthly newsletter and regular updates posted in St Peter’s PG Facebook page and the closed parents group on Facebook.
+ ## Planning Stage
 
-However, 
+ Once the main purpose of the website, I conducted extensive research about what other childcare setting in the Dinas Powys area.
+ The offer for a playgroup style setting rather than a nursery were quite limited and did not come up on a google search. It was the client that clarified what could be classed as the direct competition.
+
  
 ### What does it do?
  
@@ -28,13 +31,7 @@ This website has various pages for people to read lots of information about the 
 ## Features
  
 ### Existing Features
-- Eye catching front page
-  - Hero Image
-  - Timetable
-- About us page.
-  - 
-- Contact Us page.
-- 
+
 
 ### Features Left to Implement
 - 

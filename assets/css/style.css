@@ -33,11 +33,7 @@ h2,h1, .h2{
     background-color: #213EE0;
 }
 
-a{
-    color: #fff;
-    font-weight: 500;
-    font-size: 150%;
-}
+
 /*----------------------------------------------------------------Bootstrap NavBar*/
 .navbar-brand{
 float: left;
@@ -70,6 +66,11 @@ text-shadow: 0px 2px 0px #b2a98f,
     padding-right:5px;
 }
 
+a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 150%;
+}
 /*---------------------------------------------------------------Hero*/
 #hero-image{
     height:600px;
@@ -109,12 +110,12 @@ text-shadow: 0px 2px 0px #b2a98f,
 
 #timetable div{
     color: #fafafa;
-    background-color: rgba(0,0,0, .4);
-    width: 19.25%;
+    background-color: rgba(0,0,0, 0.4);
+    width: 19.4%;
     height:300px;
     float: left;
     text-align: center;
-    margin: 1px 4px 1px 7px;
+    margin: 1px 4px;
     text-shadow:2px 2px 3px rgba(0,0,0,0.7);
 }
 
@@ -123,9 +124,6 @@ div h3{
     letter-spacing: 5px;
     font-weight: bold;
     text-shadow:2px 2px 3px rgba(0,0,0,0.8);
-    
-
-
     
 }
 
@@ -149,7 +147,6 @@ div h3{
     margin-top:0;
     margin-bottom: 0px;
     background-color: #E2C72D;
-
 }
 
 #wraparound h3{
@@ -163,39 +160,34 @@ div h3{
     color:white;
     text-shadow:2px 2px 2px rgba(0,0,0,0.6);
 }
+
 #wraparound li{
     text-align:center;
     list-style: none;
-    display: inherit;
-
-    /* position: relative; this does not work*/
-    
+    display: inherit;  
 }
 
 #wraparound ul{
     margin-bottom: 0;
     margin-top: 30px;
-    padding-left: 0;
-    
-     /* position: relative; this does not work*/
-    
-    
+    padding-left: 0;   
 }
 
 div i{
     padding-right: 15px;
     text-shadow:2px 2px 2px rgba(0,0,0,0.3);
     font-size: 150%;
-    padding-top:20px;
-    
-
+    padding-top:20px;    
 }
+
 .fa-hourglass-start, .fa-envelope{
     color:#A61774;
 }
+
 .fa-hourglass-half, .fa-user, .fa-phone{
     color:#74A617;
 }
+
 .fa-hourglass, .blue, .fa-pencil-alt{
    color:#1774A6;
 }
@@ -214,7 +206,6 @@ div i{
     text-align: center;
     position: relative;
 }
-
 .summary h2{
     padding-bottom: 0%;
     margin-bottom: 0%;
@@ -229,9 +220,6 @@ div i{
     color:rgba(0,0,0,0.6);
     width: 50%;
     margin-left: 25%;
-
-    
-    
     
 }
 
@@ -241,22 +229,17 @@ footer{
     height:150px;
     text-align: center;
     background-color:white
-
 }
-
 
 .social-networks li{
     display:inline;
-
 }
 
 .social-networks i{
     font-size: 160%;
     margin:5px;
     padding: 1%;
-    border-radius: 25px;
-
-    
+    border-radius: 25px;  
 }
 /*----------------------------------------------------------------form + maps*/
 
@@ -277,9 +260,6 @@ footer{
         border-bottom-color: rgb(179, 175, 175); 
         padding: 0;
     }
-
-
-
 }
 
  
@@ -289,46 +269,9 @@ footer{
         padding-left: 0px;
         float:left;
     }
-}
-
-@media screen and (max-width: 474px){
-    .navbar-brand {
-        font-size: 45px;
-    }
-
-     .split-line {
+    .split-line {
         display:block;
     }
-}
-
-
-   
-
-
-
-
-
-
-
-
-
-/*  custom CSS */
-.nav-pills {
-    margin-right: 200px;
-}
-
-.navbar {
-    color:black;
-}
-
-#cover-text h3 {
-    color: black;
-}
-
-.show-me { 
-    
-    color:black !important;
-    z-index: 2;
 }
 
 /*----------------------------------contact us---------*/
