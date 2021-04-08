@@ -285,20 +285,24 @@ footer{
  
 @media screen and (max-width: 600px){
     .navbar-brand {
-        font-size: 30px;
+        font-size: 45px;
         padding-left: 0px;
         float:left;
     }
 }
 
-
-@media screen and (max-width: 347px){
+@media screen and (max-width: 474px){
     .navbar-brand {
-        font-size: 22px;
-        padding-left: 0px;
-        float:left;
+        font-size: 45px;
+    }
+
+     .split-line {
+        display:block;
     }
 }
+
+
+   
 
 
 
