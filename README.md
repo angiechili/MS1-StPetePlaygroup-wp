@@ -41,18 +41,16 @@ Upon the mini marketing research (shared with client) there were a few things th
 -	Photos and logos not being big enough or pixelated.
 -	Too many navigation tabs.
 
-See document here
-
 ### Structure, layout, and design.
  
 St Peter’s playgroup website intends to attract new customer’s by providing basic information about their philosophy, sessions, staff and activities. The site highlights links to active social media where consumers can see more information and photos about St Peter’s playgroup.
 
 In order achieve this I designed mock-ups both graphic and written to help me convey my vision to the client.
 
-The information and research conducting before starting the code consisted of:
+The information and research conducting before starting to code, consisted of:
 
-1)	Written communication to client of my idea for the website based on our conversations. (see document [here](https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/documentation/wireframe-website-structure.JPG).
-2)	Wireframes for each section as per initial written structure and clients notes.(link to [wireframes](https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/documentation/wireframes-St%20Peter%27sPlaygroup).
+1)	Written communication sent to the client, explaining  my idea for the website based on our conversations. See full [document](https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/documentation/wireframe-website-structure.JPG).
+2)	Wireframes for each section as per initial written structure and clients notes.Link to [wireframes](https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/documentation/wireframes-St%20Peter%27sPlaygroup).
 3)	Selection of colour palette and fonts to go in-line with SP playgroups current marketing flyers.
 
 
@@ -71,23 +69,23 @@ High level:
  
 
 Mid level:
--	A section dedicated to introducing staff and their qualifications in childcare. IMPLEMENTED as a short [summary] (https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/index.html)
-    A whole section was not used for this as the owner mentioned the staff numbers vary with demand. In that case individual staff information would have not always been relevant without frequent updates to the website. Instead, information about combined staff qualifications was included in the introduction section (home page).
+-	A section dedicated to introducing staff and their qualifications in childcare. [IMPLEMENTED] (https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/index.html) as a short summary.
+    A whole section was not used for this, because the owner mentioned the staff numbers vary with demand. In that case individual staff information would have not always been relevant without frequent updates to the website. Instead, information about combined staff qualifications was included in the introduction section.
 
--   Diary style section that explains a ‘day at St Peter’s playgroup’. IMPLEMENTED as an alternative version.
+-   Diary style section that explains a ‘day at St Peter’s playgroup’. **IMPLEMENTED** as an alternative version.
     Not implemented as originally planned, because the owner highlighted that SP playgroup does not follow a structured activity list. They have things they do everyday like making snacks and good morning and afternoon song.
     Replaced with 'Reasons to choose us section', that highlights what makes SP playgroup a great childcare choice.
 
--	Gallery page showcasing photos of SP playgroup setting, gardens and activities. NOT FULLY IMPLEMENTED
+-	Gallery page showcasing photos of SP playgroup setting, gardens and activities. **NOT FULLY IMPLEMENTED**
     A gallery tab was included in the project. However, we were unable to include real photos of SP playgroup (as originally planned). Instead, a photo collage was created that shows what it looks and feels like to be a child attending to SP playgroup sessions.
 
--	Section dedicated to showcase awards and schemes that SP playgroup is part of. NOT IMPLEMENTED
+-	Section dedicated to showcase awards and schemes that SP playgroup is part of. **NOT IMPLEMENTED**
     This was not implemented. It was not possible to get logos of enough resolution for all the schemes and awards. In order to achieve what I described to the client in the initial structed I would have needed higher quality logos and knowledge of more dynamic languages like JavaScript. 
 
 
 
 ### Existing Features
-*Home Page:*
+**Home Page:**
 About us page was merged within the home page. This is because there was not enough information to create a whole tab. Keeping in line with one of the objectives, it was decided that a more concise about us section would be presented in the front page. 
 - Welcome message and summary:
     A clear Welcome (Croeso in Welsh) message that explains what is SP playgroup. Includes a short summary about their philosophy , staff and qualifications. 
@@ -98,17 +96,17 @@ A concise section that summarises what SP playgroup does and what makes then sta
 - Timetable:
 This was a key feature to design and include. As SP playgroup is not a nursery their session times vary. It was important to clearly display how and when their sessions run and what each session includes. The original design can be found in the attached documentation. As you can appreciate there a few design changes but the overall essence of the table needing to display different sessions across 5 days in a week was kept in the finished website.
 
-*Contact Us page*
+**Contact Us page**
 The page was to include a contact form and a map snippet indicating the exact location of SP playgroup.
 The form was initially built with bootstrap rows and cols and placed occupying half of the page (horizontally). I found this did not look right, it was too big and did not include other contact information like telephone numbers, email and address. The map was initially inspired by Code Institute’s Coders Coffeehouse tutorial (see mock-ups). However, once the iframe was included in the code, it did not look right with the form.
 
 - All in one contact form and map:
 Through research I found a template that with bootstrap both the form and the map could be done in one container. (See credits for source information) I added my own classes to change colour schemes and messages in line with the website objectives and structure.
 
-*Gallery page*
+**Gallery page**
 Initially thought to include real pictures of playgroup setting and activities. This was not possible as the pictures supplied by the client were taken from their Facebook page and did not have the quality needed to perform in a responsive way.
 
-- Collage style gallery page:
+**Collage style gallery page:**
 An artistic attempt to convey what SP playgroup is all about through photos alone. Bootstrap was used and all images (see credits) had to be carefully selected and re-sized to make them responsive on mobile, tablet, laptop and higher resolutions screens.
 
 ## Tech Used
@@ -150,11 +148,11 @@ It was never my intention to add any text to this page, the idea of it is that i
 
 
 ## Deployment
-*Github*
+**Github**
 
 This project is deployed using GitHub pages using the following process,
 
-*Deploying a GitHub Repository via GitHub Pages*
+**Deploying a GitHub Repository via GitHub Pages**
 
 1. In your Repository section, select the Repository you wish to deploy.
 2. In the top horizontal Menu, locate and click the Settings link.
@@ -162,7 +160,7 @@ This project is deployed using GitHub pages using the following process,
 4. Under Source, select the None tab and change it to Master and click Save.
 5. Finally once the page resets scroll back down to the GitHub Pages Section to see the following message "Your site is ready to be published at (Link to the GitHub Page Web Address)". It can take time for the link to open your project initially, so please don't be worried if it down not load immediately.
 
-*Forking the Github Repository*
+**Forking the Github Repository**
 
 You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
 
@@ -170,7 +168,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 2. At the top of the page to the right, under your account, click the Fork button.
 3. You will now have a copy of the repository in your GitHub account.
 
-*Making a Local Clone*
+**Making a Local Clone**
 
 1. Find the GitHub Repository.
 2. Click the Code button
@@ -184,7 +182,7 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 Special thanks to Code Institute’s Slack community that helped with quick answers to questions and positive messages all the way through. Special thanks to fellow student Harry Dhillon for widening my understanding of Bootstrap grid and helping me test the code.
 
 ### Code
-*Header:*
+
 - Logo and icon shades technique from:
 https://www.geeksforgeeks.org/how-to-style-icon-color-size-and-shadow-by-using-css/
 
