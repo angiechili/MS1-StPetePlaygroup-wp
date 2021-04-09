@@ -66,7 +66,7 @@ High level:
  
 
 Mid-level:
--   A section dedicated to introducing staff and their qualifications in childcare. [IMPLEMENTED] (https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/index.html) as a short summary.
+-   A section dedicated to introducing staff and their qualifications in childcare. **IMPLEMENTED** as a short summary.
     A whole section was not used for this, because the owner mentioned the staff numbers vary with demand. In that case, individual staff information would have not always been relevant without frequent updates to the website. Instead, information about combined staff qualifications was included in the introduction section.
 
 -   Diary style section that explains a 'day at St Peter's playgroup'. **IMPLEMENTED** as an alternative version.
