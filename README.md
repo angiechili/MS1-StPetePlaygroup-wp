@@ -1,11 +1,11 @@
 # St Peter's Playgroup Website
  
 ## Overview
-The idea from this project came after I started my search for childcare in my local area. 
+The idea for this project came after I started my search for childcare in my local area. 
 
-I was unable to find a suitable option through a web search, so I decided to as around and by word of my mouth I found a perfect match in St Peter's playgroup.
+I was unable to find a suitable option through a web search, so I decided to ask around and by word of my mouth I found a perfect match in St Peter's playgroup.
 
-I thought it a shame that such a great quality childcare setting does not have an online platform to showcase their work and attract new clients.
+I thought it a shame that such a great quality childcare setting did not have an online platform to showcase their work and attract new clients.
 
 Until now.... click below to see the St Peter's Playgroup brand new website.
 
@@ -43,9 +43,9 @@ Upon the mini marketing research (shared with the client) there were a few thing
  
 St Peter's playgroup website intends to attract new customer's by providing basic information about their philosophy, sessions, staff and activities. The site highlights links to active social media where consumers can see more information and photos about St Peter's playgroup.
 
-In order to achieve this, I designed mock-ups both graphic and written to help me convey my vision to the client.
+In order to achieve this, I designed mock-ups both graphic and written to help me convey my vision to the client. Based on the mini marketing research, it was decided we wanted build a site with the common characteristics of other sites, and avoiding what we thought was not good about them. (as discussed above)
 
-The information and research conducting before starting to code consisted of:
+The structure, layout and design plans initially took form as:
 
 1)  Written communication sent to the client, explaining my idea for the website based on our conversations. See full [document](https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/documentation/wireframe-website-structure.JPG).
 2)  Wireframes for each section as per initial written structure and clients notes.Link to [wireframes](https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/documentation/wireframes-St%20Peter%27sPlaygroup).
@@ -116,7 +116,7 @@ An artistic attempt to convey what SP playgroup is all about through photos alon
 
 
 ## Testing
-Testing was done throughout the realisation of the website. For a detailed account of errors and fixes please see commit messages here.
+Testing was done throughout the realisation of the website. For a detailed account of errors and fixes please see commit messages [here] (https://github.com/angiechili/MS1-StPetePlaygroup-wp/commits/master).
 
 Devices used for testing include:
 -   Apple iPad
