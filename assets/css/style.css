@@ -262,6 +262,7 @@ footer{
         border-bottom-color: rgb(179, 175, 175); 
         padding: 0;
     }
+
 }
 
  
@@ -275,6 +276,20 @@ footer{
         display:block;
     }
 }
+
+@media (max-width: 1199px){
+.col-lg-2 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-lg-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+
 
 /*----------------------------------contact us---------*/
 
