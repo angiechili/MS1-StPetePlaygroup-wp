@@ -143,10 +143,10 @@ Devices used for testing include:
 
 I used the W3C Markup Validator and W3C CSS Validator to validate every page of the project to ensure there were no syntax errors in the project. (see validator [screenshots](https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/fb90f796bf02a9d938e1a286aa3580c3659314a7/documentation/validator%20-screenshots))
 
-Index.html warning (remains unchanged)
+**Index.html warning (remains unchanged)**
 I did not add a <h1/6> heading in this section because it's an images section and does not benefit from a heading. I verified this against CI Love Running tutorial.
 
-Gallery.html warning (remains unchanged)
+**Gallery.html warning (remains unchanged)**
 It was never my intention to add any text to this page, the idea of it is that is a collage of images that do not need text to show what the product is about.
 
 ## Deployment
