@@ -24,6 +24,14 @@ Ideally, this is a website for new clients. Who are:
 -   A low maintenance website that does not need to be updated frequently.
 -   A website that encourages clients to visit social media and contact the owner directly with more questions. 
 
+### What does the user need?
+As as user I would like :
+
+- To know what the website is about from the home page.
+- An attractive and colourful site that presents concise information about the childcare setting.
+- See links to sites where I can get more information about SP playgroup.
+- A means of sending direct messages to SP playgroup.
+
 ## Planning Stage
 
 A Mini marketing research [document](https://github.com/angiechili/MS1-StPetePlaygroup-wp/blob/master/documentation/mini%20-market-research%20png.png) 
